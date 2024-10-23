@@ -186,35 +186,37 @@
         "user": "John",
         "comment": "Amazing product!",
         "rating": 5,
-        "parentId": null
-      },
-      {
-        "id": 2,
-        "user": "Jane",
-        "comment": "Thanks for the feedback!",
-        "rating": 4,
-        "parentId": 1
+        "reply": [
+          {
+            "id": 2,
+            "user": "Jane",
+            "comment": "Thanks for the feedback!",
+            "rating": 4,
+            "reply": []
+          }
+        ]
       },
       {
         "id": 3,
         "user": "Albert",
         "comment": "Awesome!",
         "rating": 5,
-        "parentId": null
-      },
-      {
-        "id": 4,
-        "user": "Jane",
-        "comment": "Thank you!",
-        "rating": 5,
-        "parentId": 3
+        "reply": [
+          {
+            "id": 4,
+            "user": "Jane",
+            "comment": "Thank you!",
+            "rating": 5,
+            "reply": []
+          }
+        ]
       },
       {
         "id": 5,
         "user": "Joe",
         "comment": "I love this product, recommended seller",
         "rating": 5,
-        "parentId": null
+        "reply": []
       }
     ]
   }
